@@ -30,3 +30,25 @@ git push -u origin main
 
 #### 
 git pull origin master
+
+# for fixing conflicts & manually merging
+# After add/commit then pulling:
+vvv
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the 
+result.
+^^^
+
+Then, README.md has the following mod from Git:
+<<<<<<< HEAD
+blah4
+=======
+blah5
+>>>>>>> 0f1e35cb8b24ebc2819378f59dfb7849314daed9
+
+Which has the arrows bracketing (& ===== splitting) the issues that I need to manually resolve.
+This basically looks like a diff output.
+
+I can resolve it to blah3 & remove the arrows/==
+
