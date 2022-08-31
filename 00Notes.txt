@@ -1,2 +1,5 @@
 following this vid:
 https://www.youtube.com/watch?v=DVRQoVRzMIY
+
+To switch back to master branch:
+git checkout master
