@@ -9,3 +9,5 @@ git checkout master
 
 To merge another branch (master) with this one:
 git merge master
+
+git push --set-upstream origin new
