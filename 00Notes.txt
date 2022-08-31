@@ -1,5 +1,11 @@
 following this vid:
 https://www.youtube.com/watch?v=DVRQoVRzMIY
+My "new" branch
+git checkout new
 
 To switch back to master branch:
 git checkout master
+
+
+To merge another branch (master) with this one:
+git merge master
