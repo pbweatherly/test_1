@@ -52,3 +52,6 @@ This basically looks like a diff output.
 
 I can resolve it to blah3 & remove the arrows/==
 
+#To push "new" branch 
+git checkout new
+git push --set-upstream origin new
