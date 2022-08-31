@@ -9,3 +9,12 @@ git checkout master
 
 To merge another branch (master) with this one:
 git merge master
+
+# Create a new repository on github. Here public one named test_1
+echo "# test_1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/pbweatherly/test_1.git
+git push -u origin main01~
