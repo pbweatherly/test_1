@@ -21,3 +21,8 @@ git push -u origin master
 
 so, origin is the "name" for the url we are pushing to, i.e. it's the variable containing the url we are connecting to our remote (on our machine) project.
 We can rename it something else, or use a different name than origin if we are dealing with multiple repos.
+
+Conversely: 
+git remote add origin https://github.com/pbweatherly/test_1.git
+git branch -M main
+git push -u origin main
