@@ -26,3 +26,7 @@ Conversely:
 git remote add origin https://github.com/pbweatherly/test_1.git
 git branch -M main
 git push -u origin main
+
+
+####
+git pull origin master
